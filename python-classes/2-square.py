@@ -4,7 +4,7 @@
 
 class Square:
     """Adding a private attribute size and instantiating it"""
-    def __init__(self, size = 0):
+    def __init__(self, size=0):
 
         """Adding exceptions to check if size is type int and if it is
         not less that zero """
