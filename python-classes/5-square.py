@@ -35,9 +35,9 @@ class Square:
 
     # Function for printing square with #
     def my_print(self):
-        """ Prints on the STDOUT the square depending on the size"""
+        """Prints on the STDOUT the square depending on the size"""
         if self.size == 0:
             print("")
         else:
-            for i in range(self.size):
+            for _ in range(self.size):
                 print("#" * self.size)  
