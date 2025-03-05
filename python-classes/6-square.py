@@ -4,7 +4,7 @@
 
 class Square:
     """Adding 2 private attributes size and position and instantiating them"""
-    def __init__(self, size=0, position=(0,0)):
+    def __init__(self, size=0, position=(0, 0)):
 
         self.size = size  # Calls the setter function to set the size
         self.position = position
