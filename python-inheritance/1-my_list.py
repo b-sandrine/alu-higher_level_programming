@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""A subclass of list that includes a method to print a sorted version of the list."""
+
+
 class MyList(list):
     """A subclass of list that includes a method to print a sorted version of the list."""
 
