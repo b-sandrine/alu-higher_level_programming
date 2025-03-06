@@ -3,12 +3,12 @@
 
 
 class Rectangle:
-    """ Defining a class Rectangle with 2 attributes height and width. Adding getters and setters"""
+    """ Defining a class Rectangle with 2 attributes height and width"""
 
     def __init__(self, width=0, height=0):
         """ Instantitiating the attributes """
         self.width = width
-        self.height = height 
+        self.height = height
 
     # Getters and setter for the 2 attributes
     @property
