@@ -4,7 +4,7 @@
 
 class Rectangle:
     """ Defining a class Rectangle with 2 attributes height and width"""
-    
+
     number_of_instances = 0   # Public class attribute
 
     def __init__(self, width=0, height=0):
