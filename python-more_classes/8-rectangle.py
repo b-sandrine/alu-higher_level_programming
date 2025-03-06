@@ -53,8 +53,7 @@ class Rectangle:
     def __str__(self):
         if self.width == 0 or self.height == 0:
             return ""
-        return "\n".join(str(self.print_symbol) 
-                * self.width for _ in range(self.height))
+        return "\n".join(str(self.print_symbol) * self.width for _ in range(self.height))
 
     # __repr__ function to  should return a string representation
     def __repr__(self):
