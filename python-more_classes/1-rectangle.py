@@ -3,28 +3,24 @@
 
 
 class Rectangle:
-    """ Defining a class Rectangle with 2 attributes height and width. 
-    Adding getters and setters"""
+    """ Defining a class Rectangle with 2 attributes height and width. Adding getters and setters"""
 
     def __init__(self, width=0, height=0):
-       """ Instantitiating the attributes """
-       self.width = width
-       self.height = height 
+        """ Instantitiating the attributes """
+        self.width = width
+        self.height = height 
 
     # Getters and setter for the 2 attributes
-    
     @property
     def width(self):
         return self.__width
 
     @width.setter
     def width(self, value):
-
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
-
         self.__width = value
 
     @property
@@ -33,12 +29,8 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
-
         if value < 0:
             raise ValueError("height must be >= 0")
-
         self.__height = value
-    
